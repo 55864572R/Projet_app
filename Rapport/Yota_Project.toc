@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}INTRODUCTION}{3}{}%
+\contentsline {section}{\numberline {2}METHODOLOGIE}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Choix du langage (python)}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Présentation de la bibliothèque utilisée (PYgame)}{4}{}%
+\contentsline {section}{\numberline {3}CONCEPTION}{5}{}%
+\contentsline {section}{\numberline {4}RESULTATS}{5}{}%
+\contentsline {section}{\numberline {5}CONCLUSION}{6}{}%

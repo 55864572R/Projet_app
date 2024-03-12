@@ -1,0 +1,73 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+
+\begin{document}
+\fbox{
+\begin{minipage}{13cm}
+\begin{center}
+\textbf{CONCEPTION D’UNE APPLICATION DE \\COMMUNICATION AVEC LE CLAVIER ET LA SOURIS}
+\end{center}
+\end{minipage}}
+
+\vspace*{5cm}
+\begin{center}
+\textbf{COURS : ANI-AIA 4068\\
+\textit{CODER POUR LA VR, L’XR ET L’AR II} \\
+PAR YOTA NGNOUTBA ROMEO ANGE\\
+MATRICULE : 22P128\\
+}
+\end{center}
+
+\newpage
+\renewcommand{\contentsname}{SOMMAIRE}
+
+\tableofcontents
+
+\newpage
+\section{INTRODUCTION}
+\small {Dans le cadre de ce projet, nous avons développé une application en utilisant le langage de programmation Python qui permet d'afficher les touches pressées sur un clavier en temps réel et d’évaluer la position de la souris sur l’écran et ainsi que la touche de la souris pressée. L'objectif principal de ce projet était de créer un outil simple mais efficace pour surveiller et enregistrer les entrées clavier et de la souris d'un utilisateur, offrant ainsi une application du cours sur la connectivité des HID au système.
+Notre application repose sur l'utilisation de la bibliothèque Python "pygame", qui offre des fonctionnalités pour capturer les événements clavier et souris. Grâce à cette bibliothèque, nous avons pu développer un système capable de détecter chaque touche pressée par l'utilisateur ainsi que le mouvement de sa souris, d'enregistrer ces informations et de les afficher en temps réel à l'écran.}
+
+\begin{flushleft}
+Dans la suite de ce rapport, nous présenterons en détail la méthodologie utilisée pour concevoir et développer cette application, ainsi que les résultats obtenus, les performances du système et les perspectives d'amélioration.
+\end{flushleft}
+
+\newpage
+
+\section{METHODOLOGIE}
+\subsection{Choix du langage (python)}
+Pour ce projet, nous avons opté pour le langage de programmation Python en raison de sa simplicité, de sa flexibilité et de sa vaste communauté de développeurs. Python offre une syntaxe claire et lisible, ce qui facilite le développement et la maintenance du code. De plus, il dispose d'une large gamme de bibliothèques et de frameworks qui facilitent la réalisation de diverses tâches.
+\\
+\subsection{Présentation de la bibliothèque utilisée (PYgame)}
+Pour capturer et afficher les touches pressées sur un clavier et aussi de capturer les cas concernant la position de la souris sur l’écran, ou encore le clic effectué, nous avons utilisé la bibliothèque Pygame. Pygame est une bibliothèque Python populaire qui fournit des fonctionnalités pour le développement de jeux et d'applications multimédias. Bien que Pygame soit principalement utilisé pour créer des jeux, il peut également être utilisé pour gérer les entrées utilisateur, y compris les événements clavier et souris.\\
+\includegraphics[scale=0.5]{image pygame.PNG} 
+\begin{flushleft}
+L'utilisation de Pygame nous a permis de bénéficier de ses fonctionnalités prêtes à l'emploi pour capturer les événements clavier, traiter les touches pressées et afficher les informations à l'écran.
+\end{flushleft}
+
+\newpage
+\section{CONCEPTION}
+La conception de notre application s'est concentrée sur la création d'une interface utilisateur intuitive pour afficher les touches pressées sur le clavier en temps réel et une autre interface pour la gestion de la souris.
+\\
+Nous avons utilisé la bibliothèque Pygame pour créer une fenêtre d'affichage graphique. À l'intérieur de cette fenêtre, nous avons affiché une zone de texte où les touches pressées seraient affichées.
+\\
+Par exemple, lorsque l'utilisateur appuie sur la touche "A", la lettre "A" est ajoutée à la zone de texte. Lorsqu'une souris est déplacée sa position est capturée instantanément et si on fait un clic (par exemple le clic gauche) celui-ci est également affiché.
+\\
+La conception de l'interface a été réalisée de manière à ce qu'elle soit facilement compréhensible par l'utilisateur. La zone de texte était suffisamment grande pour afficher les résultats.
+
+\section{RESULTATS}
+L'application que nous avons développée pour afficher les touches pressées sur un clavier en temps réel a donné des résultats satisfaisants. Voici un aperçu des principaux résultats obtenus :
+\begin{itemize}
+
+\item Affichage en temps réel : L'application a réussi à capturer les événements clavier et souris et à afficher les touches pressées en temps réel à l'écran. Cela permet à l'utilisateur de voir instantanément les touches qu'il a pressées.
+\includegraphics[scale=0.3]{image_clavier.PNG}\includegraphics[scale=0.3]{image_souris.PNG}  
+\item Précision : L'application a enregistré avec précision chaque touche pressée, garantissant ainsi l'intégrité des données affichées. Les touches sont correctement détectées et affichées dans l'ordre dans lequel elles ont été pressées.
+\item Interface utilisateur conviviale : L'interface utilisateur développée avec Pygame s'est avérée conviviale et facile à utiliser.
+
+\end{itemize}
+
+\newpage
+\section{CONCLUSION}
+En conclusion, notre application a réussi à atteindre les objectifs fixés en affichant avec précision les touches pressées sur un clavier en temps réel. Les résultats obtenus démontrent une interface utilisateur conviviale et un potentiel d'extension intéressant pour des fonctionnalités supplémentaires.
+
+\end{document}
